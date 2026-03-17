@@ -128,18 +128,19 @@ Reverse a given number using a loop.
 
 ### 15. Printing Pattern
 Print the below pattern for n rows:
-"
+<pre>
 *
 **
 ***
 ****
-"
+</pre>
 ### 16. Print the pattern
 Print the below pattern for n rows:
+<pre>
    1
   121
  12321
 1234321
-
+</pre>
 ### 17. Prime Number Check
 Check whether a number is prime or not.
