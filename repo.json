@@ -1,0 +1,43 @@
+{
+    "filedata": [
+        {
+            "folder": "/BasicConcepts",
+            "files": [
+                {
+                    "name": "/Hello.cpp",
+                    "objective": "A simple program that prints 'Hello, World!' to the console."
+                },
+                {
+                    "name": "/DataTypes.cpp",
+                    "objective": "A program that demonstrates the use of different data types in C++."
+                },
+                {
+                    "name": "/AddValues.cpp",
+                    "objective": "A program that adds two values entered by the user."
+                }
+            ]
+        },
+        {
+            "folder": "/Patterns",
+            "files": [
+                {
+                    "name": "/RightTrianglePattern.cpp",
+                    "objective": "A program that prints a right triangle pattern."
+                },
+                {
+                    "name": "/NumberPyramidPattern.cpp",
+                    "objective": "A program that prints a number pyramid pattern."
+                }
+            ]
+        },
+        {
+            "folder": "/Arrays",
+            "files": [
+                {
+                    "name": "/1DArray.cpp",
+                    "objective": "A program that demonstrates the use of one-dimensional arrays in C++."
+                }
+            ]
+        }
+    ]
+}

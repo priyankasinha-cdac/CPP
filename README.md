@@ -1,146 +1,85 @@
-# CPP
-# Basic Concepts:
-Contains program based on concepts of operators, looping, conditions
+# C++ Programs
 
-## List of Questions:
-### 1. Hello World Program
-Objective:
-Write a C++ program to display the message "Hello, World!" on the console.
+A collection of C++ programs organized by topic.
 
-Requirements:
+![Folders](https://img.shields.io/badge/Folders-3-blue) ![Programs](https://img.shields.io/badge/Programs-6-green) ![Language](https://img.shields.io/badge/Language-C%2B%2B-orange)
 
-Use cout for output.
+## 📋 Quick Reference
 
-Include <iostream> and use namespace std.
+| Folder | File | Objective |
+|--------|------|-----------|
+| `BasicConcepts` | `Hello.cpp` | A simple program that prints 'Hello, World!' to the console. |
+| `BasicConcepts` | `DataTypes.cpp` | A program that demonstrates the use of different data types in C++. |
+| `BasicConcepts` | `AddValues.cpp` | A program that adds two values entered by the user. |
+| `Patterns` | `RightTrianglePattern.cpp` | A program that prints a right triangle pattern. |
+| `Patterns` | `NumberPyramidPattern.cpp` | A program that prints a number pyramid pattern. |
+| `Arrays` | `1DArray.cpp` | A program that demonstrates the use of one-dimensional arrays in C++. |
+
+---
+
+## 📁 Programs by Folder
+
+## 📦 BasicConcepts
+
+*3 programs*
+
+#### `Hello.cpp`
+
+> A simple program that prints 'Hello, World!' to the console.
+
+**File:** `BasicConcepts/Hello.cpp`
+
+---
+
+#### `DataTypes.cpp`
+
+> A program that demonstrates the use of different data types in C++.
+
+**File:** `BasicConcepts/DataTypes.cpp`
+
+---
+
+#### `AddValues.cpp`
+
+> A program that adds two values entered by the user.
+
+**File:** `BasicConcepts/AddValues.cpp`
+
+---
+
+## 🔷 Patterns
+
+*2 programs*
+
+#### `RightTrianglePattern.cpp`
+
+> A program that prints a right triangle pattern.
+
+**File:** `Patterns/RightTrianglePattern.cpp`
+
+---
+
+#### `NumberPyramidPattern.cpp`
+
+> A program that prints a number pyramid pattern.
+
+**File:** `Patterns/NumberPyramidPattern.cpp`
+
+---
+
+## 🗃️ Arrays
+
+*1 program*
+
+#### `1DArray.cpp`
+
+> A program that demonstrates the use of one-dimensional arrays in C++.
+
+**File:** `Arrays/1DArray.cpp`
+
+---
 
 
-### 2. Addition of Values
+---
 
-Objective:
-Write C++ programs to perform addition of:
-
-a) Two integers
-b) Two binary numbers (entered as integers, e.g., 101 + 110)
-c) Two characters (display ASCII sum)
-
-Requirements:
-
-Accept input using cin.
-
-Display results using cout.
-
-
-### 3. Compound Interest Calculation
-
-Objective:
-Write a C++ program to calculate compound interest.
-
-Formula:
-
-CI = P * ( 1 + (r/n))^(n*t) - P
-
-Requirements:
-
-Input principal, rate, time, and compounding frequency.
-
-Use appropriate data types (float/double).
-
-### 4. Swap Two Numbers
-
-Objective:
-Write C++ programs to swap two numbers using:
-
-a) Temporary variable
-b) Without using temporary variable
-
-Requirements:
-
-Show values before and after swapping.
-
-
-### 5. Area of Rectangle
-
-Objective:
-Write a C++ program to calculate the area of a rectangle.
-
-Formula:
-
-Area=Length×Breadth
-
-Requirements:
-
-Input length and breadth from the user.
-
-Display the result.
-
-
-### 6. Bitwise AND, OR and XOR
-
-Objective:
-Write a program to compute:
-
-a) Bitwise OR (|)
-b) Bitwise XOR (^)
-c) Bitwise AND (&)
-
-for two given integers.
-
-### 7. Left Shift and Right Shift
-
-Objective:
-Write a program to:
-
-a) Left shift a number by 2 positions
-b) Right shift a number by 2 positions
-
-Display both results.
-
-### 8. Maximum of Two Numbers
-
-Objective:
-Write a program to find the maximum of two numbers using ternary operator.
-
-### 9. Even or Odd Using Ternary
-
-Objective:
-Write a program to check whether a number is even or odd using ternary operator.
-
-### 10. Largest of Three Numbers
-
-Objective:
-Write a program to find the largest among three numbers using nested ternary operator.
-
-### 11. Sum of First N Numbers
-
-Input n and find the sum of first n natural numbers.
-
-### 12. Factorial
-
-Find the factorial of a number using a for loop.
-
-### 13. Count Digits
-
-Input a number and count the number of digits.
-
-### 14. Reverse a Number
-
-Reverse a given number using a loop.
-
-### 15. Printing Pattern
-Print the below pattern for n rows:
-<pre>
-*
-**
-***
-****
-</pre>
-### 16. Print the pattern
-Print the below pattern for n rows:
-<pre>
-   1
-  121
- 12321
-1234321
-</pre>
-### 17. Prime Number Check
-Check whether a number is prime or not.
+*README auto-generated on 2026-03-19 08:17 from `repo.json` and Doxygen comments.*
