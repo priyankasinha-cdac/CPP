@@ -36,6 +36,10 @@
                 {
                     "name": "/1DArray.cpp",
                     "objective": "A program that demonstrates the use of one-dimensional arrays in C++."
+                },
+                {
+                    "name": "/Inventory1d.cpp",
+                    "objective": "A program to perform supermarket price analysis with 1D arrays."
                 }
             ]
         }
