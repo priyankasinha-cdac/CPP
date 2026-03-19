@@ -1,15 +1,14 @@
 /**
  * @brief Program to print a right triangle pattern using asterisks (*).
- * The pattern will have a specified number of rows, and each row will contain an increasing number of asterisks.
+ * @brief pattern will have a specified number of rows, and each row will contain an increasing number of asterisks.
  * @param rows the number of rows in the right triangle pattern
- * @example 
- * Input: rows = 5
- * Output:
- * *
- * **
- * ***
- * ****
- * *****
+ * @example Input: rows = 5
+ * @example Output:
+ * @example *
+ * @example **
+ * @example ***
+ * @example ****
+ * @example *****
  */
 
 #include <iostream>
