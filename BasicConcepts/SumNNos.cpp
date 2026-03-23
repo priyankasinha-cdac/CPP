@@ -8,10 +8,10 @@ int main()
     cout << "Enter the number of terms: ";
     cin >> n;
 
-    for(int i=0;i<=n; i++){
+    for(int i=n;i>=0; i--){
         sum = sum + i;
-
     }
+    
     cout << "The sum of first " << n << " natural numbers is: " << sum << endl;
     return 0;
 }
