@@ -2,236 +2,297 @@
 
 A collection of C++ programs organized by topic.
 
-![Folders](https://img.shields.io/badge/Folders-3-blue) ![Programs](https://img.shields.io/badge/Programs-18-green) ![Language](https://img.shields.io/badge/Language-C%2B%2B-orange)
-
 ## Quick Reference
 
 | Folder | File | Objective |
 |--------|------|-----------|
-| [BasicConcepts](BasicConcepts) | [`AreaRect.cpp`](BasicConcepts/AreaRect.cpp) | program to calculate the area of a rectangle. |
-| [BasicConcepts](BasicConcepts) | [`BitwiseOp.cpp`](BasicConcepts/BitwiseOp.cpp) | program to compute bitwise operations (AND, OR, XOR) on two integers. |
-| [BasicConcepts](BasicConcepts) | [`CompoundInterest.cpp`](BasicConcepts/CompoundInterest.cpp) | program to calculate the compound interest. |
-| [BasicConcepts](BasicConcepts) | [`CountDigit.cpp`](BasicConcepts/CountDigit.cpp) | program to count the number of digits in an integer. |
-| [BasicConcepts](BasicConcepts) | [`EvenOdd.cpp`](BasicConcepts/EvenOdd.cpp) | program to check if a number is even or odd. |
-| [BasicConcepts](BasicConcepts) | [`Factorial.cpp`](BasicConcepts/Factorial.cpp) | program to calculate the factorial of a number. |
-| [BasicConcepts](BasicConcepts) | [`Hello.cpp`](BasicConcepts/Hello.cpp) | A simple program that prints 'Hello, World!' to the console. |
-| [BasicConcepts](BasicConcepts) | [`IntBinAdd.cpp`](BasicConcepts/IntBinAdd.cpp) | A program that adds two binary numbers entered as integers by the user. |
-| [BasicConcepts](BasicConcepts) | [`LtRtShift.cpp`](BasicConcepts/LtRtShift.cpp) | A program that performs left and right shift operations on an integer. |
-| [BasicConcepts](BasicConcepts) | [`Max2.cpp`](BasicConcepts/Max2.cpp) | A program to find the maximum of two numbers using ternary operator. |
-| [BasicConcepts](BasicConcepts) | [`Max3.cpp`](BasicConcepts/Max3.cpp) | A program to find the maximum of three numbers using nested ternary operator. |
-| [BasicConcepts](BasicConcepts) | [`RevNo.cpp`](BasicConcepts/RevNo.cpp) | A program to display the reverse of a number. |
-| [BasicConcepts](BasicConcepts) | [`SumNNos.cpp`](BasicConcepts/SumNNos.cpp) | A program to calculate the sum of first N natural numbers. |
-| [BasicConcepts](BasicConcepts) | [`Swap2.cpp`](BasicConcepts/Swap2.cpp) | A program to swap two numbers using a temporary variable. |
-| [Patterns](Patterns) | [`RightTrainglePattern.cpp`](Patterns/RightTrainglePattern.cpp) | A program that prints a right triangle pattern. |
-| [Patterns](Patterns) | [`NumberPyramidPattern.cpp`](Patterns/NumberPyramidPattern.cpp) | A program that prints a number pyramid pattern. |
-| [Arrays](Arrays) | [`1DArray.cpp`](Arrays/1DArray.cpp) | A program that demonstrates the use of one-dimensional arrays in C++. |
-| [Arrays](Arrays) | [`Inventory1d.cpp`](Arrays/Inventory1d.cpp) | A program to perform supermarket price analysis with 1D arrays. |
-
----
+| `Arrays` | `1DArray.cpp` | — |
+| `Arrays` | `2DArray.cpp` | program to demonstrate the use of two-dimensional arrays in C++. |
+| `Arrays` | `BankTransactions.cpp` | program to manage bank transactions using arrays. |
+| `Arrays` | `Inventory1d.cpp` | To store prices of items in an inventory using a 1D array. |
+| `Arrays` | `Vowels.cpp` | Find the index of all the vowels in a given string. |
+| `BasicConcepts` | `AreaRect.cpp` | program to calculate the area of a rectangle. |
+| `BasicConcepts` | `BitwiseOp.cpp` | program to demonstrate bitwise operations. |
+| `BasicConcepts` | `CompoundInterest.cpp` | Compound Interest Calculation |
+| `BasicConcepts` | `CountDigits.cpp` | — |
+| `BasicConcepts` | `EvenOdd.cpp` | Compute whether a number is even or odd. |
+| `BasicConcepts` | `Factorial.cpp` | — |
+| `BasicConcepts` | `Hello.cpp` | — |
+| `BasicConcepts` | `IntBinAdd.cpp` | — |
+| `BasicConcepts` | `LtRtShift.cpp` | program to demonstrate left and right shift operations. |
+| `BasicConcepts` | `Max2.cpp` | program to find the maximum of two numbers. |
+| `BasicConcepts` | `Max3.cpp` | — |
+| `BasicConcepts` | `RevNo.cpp` | program to reverse a number. |
+| `BasicConcepts` | `SumNNos.cpp` | — |
+| `BasicConcepts` | `Swap2.cpp` | program to swap two numbers using a temporary variable. |
+| `BasicConcepts` | `static.cpp` | — |
+| `ClassBasic` | `ClsDemo.cpp` | — |
+| `ClassBasic` | `Constructor.cpp` | — |
+| `ClassBasic` | `ObjPtr.cpp` | — |
+| `ClassBasic` | `ProdInventory.cpp` | Define a Product class (id, name, price, quantity). |
+| `ClassBasic` | `Student.cpp` | — |
+| `Functions` | `ArrayOp.cpp` | — |
+| `Functions` | `Max3_Orld.cpp` | — |
+| `Functions` | `arrFn.cpp` | — |
+| `Functions` | `fact.cpp` | — |
+| `Functions` | `functionovrload.cpp` | — |
+| `Functions` | `inlinefn.cpp` | — |
+| `Functions` | `swap.cpp` | — |
+| `Patterns` | `NumberPyramidPattern.cpp` | Display Pyramid of numbers |
+| `Patterns` | `RightTrianglePattern.cpp` | Program to print a right triangle pattern using asterisks (*). |
+| `Pointers` | `DMA.cpp` | — |
+| `Pointers` | `Error.cpp` | — |
+| `Pointers` | `PtrArith.cpp` | — |
+| `Pointers` | `pointer.cpp` | Program to demonstrate the use of pointers in C++. |
 
 ## Programs by Folder
 
-## [BasicConcepts](BasicConcepts)
+### Arrays
+`5 programs`
 
-*14 programs*
+#### `1DArray.cpp`
 
-#### [`AreaRect.cpp`](BasicConcepts/AreaRect.cpp)
+File: `Arrays/1DArray.cpp`
 
-**File:** [`BasicConcepts/AreaRect.cpp`](BasicConcepts/AreaRect.cpp)
+*No documentation tags found.*
 
-**Brief:** program to calculate the area of a rectangle.
+#### `2DArray.cpp`
 
-**Parameters:**
-- `length the length of the rectangle`
-- `width the width of the rectangle`
+File: `Arrays/2DArray.cpp`
+
+Brief: program to demonstrate the use of two-dimensional arrays in C++.
+
+#### `BankTransactions.cpp`
+
+File: `Arrays/BankTransactions.cpp`
+
+Brief: program to manage bank transactions using arrays.
+
+#### `Inventory1d.cpp`
+
+File: `Arrays/Inventory1d.cpp`
+
+Brief: To store prices of items in an inventory using a 1D array.
+
+#### `Vowels.cpp`
+
+File: `Arrays/Vowels.cpp`
+
+Brief: Find the index of all the vowels in a given string.
+
+### BasicConcepts
+`15 programs`
+
+#### `AreaRect.cpp`
+
+File: `BasicConcepts/AreaRect.cpp`
+
+Brief: program to calculate the area of a rectangle.
+
+#### `BitwiseOp.cpp`
+
+File: `BasicConcepts/BitwiseOp.cpp`
+
+Brief: program to demonstrate bitwise operations.
+
+#### `CompoundInterest.cpp`
+
+File: `BasicConcepts/CompoundInterest.cpp`
+
+Brief: Compound Interest Calculation
+
+#### `CountDigits.cpp`
+
+File: `BasicConcepts/CountDigits.cpp`
+
+*No documentation tags found.*
+
+#### `EvenOdd.cpp`
+
+File: `BasicConcepts/EvenOdd.cpp`
+
+Brief: Compute whether a number is even or odd.
+
+#### `Factorial.cpp`
+
+File: `BasicConcepts/Factorial.cpp`
+
+*No documentation tags found.*
+
+#### `Hello.cpp`
+
+File: `BasicConcepts/Hello.cpp`
+
+*No documentation tags found.*
+
+#### `IntBinAdd.cpp`
+
+File: `BasicConcepts/IntBinAdd.cpp`
+
+*No documentation tags found.*
+
+#### `LtRtShift.cpp`
+
+File: `BasicConcepts/LtRtShift.cpp`
+
+Brief: program to demonstrate left and right shift operations.
+
+#### `Max2.cpp`
+
+File: `BasicConcepts/Max2.cpp`
+
+Brief: program to find the maximum of two numbers.
+
+#### `Max3.cpp`
+
+File: `BasicConcepts/Max3.cpp`
+
+*No documentation tags found.*
+
+#### `RevNo.cpp`
+
+File: `BasicConcepts/RevNo.cpp`
+
+Brief: program to reverse a number.
+
+#### `SumNNos.cpp`
+
+File: `BasicConcepts/SumNNos.cpp`
+
+*No documentation tags found.*
+
+#### `Swap2.cpp`
+
+File: `BasicConcepts/Swap2.cpp`
+
+Brief: program to swap two numbers using a temporary variable.
+
+#### `static.cpp`
+
+File: `BasicConcepts/static.cpp`
+
+*No documentation tags found.*
+
+### ClassBasic
+`5 programs`
+
+#### `ClsDemo.cpp`
+
+File: `ClassBasic/ClsDemo.cpp`
+
+*No documentation tags found.*
+
+#### `Constructor.cpp`
+
+File: `ClassBasic/Constructor.cpp`
+
+*No documentation tags found.*
+
+#### `ObjPtr.cpp`
+
+File: `ClassBasic/ObjPtr.cpp`
+
+*No documentation tags found.*
+
+#### `ProdInventory.cpp`
+
+File: `ClassBasic/ProdInventory.cpp`
+
+Brief: Define a Product class (id, name, price, quantity).
+
+#### `Student.cpp`
+
+File: `ClassBasic/Student.cpp`
+
+*No documentation tags found.*
+
+### Functions
+`7 programs`
+
+#### `ArrayOp.cpp`
+
+File: `Functions/ArrayOp.cpp`
+
+*No documentation tags found.*
+
+#### `Max3_Orld.cpp`
+
+File: `Functions/Max3_Orld.cpp`
+
+*No documentation tags found.*
+
+#### `arrFn.cpp`
+
+File: `Functions/arrFn.cpp`
+
+*No documentation tags found.*
+
+#### `fact.cpp`
+
+File: `Functions/fact.cpp`
+
+*No documentation tags found.*
+
+#### `functionovrload.cpp`
+
+File: `Functions/functionovrload.cpp`
+
+*No documentation tags found.*
+
+#### `inlinefn.cpp`
+
+File: `Functions/inlinefn.cpp`
+
+*No documentation tags found.*
+
+#### `swap.cpp`
+
+File: `Functions/swap.cpp`
+
+*No documentation tags found.*
+
+### Patterns
+`2 programs`
+
+#### `NumberPyramidPattern.cpp`
+
+File: `Patterns/NumberPyramidPattern.cpp`
+
+Brief: Display Pyramid of numbers
+
+#### `RightTrianglePattern.cpp`
+
+File: `Patterns/RightTrianglePattern.cpp`
+
+Brief: Program to print a right triangle pattern using asterisks (*).
+
+### Pointers
+`4 programs`
+
+#### `DMA.cpp`
+
+File: `Pointers/DMA.cpp`
+
+*No documentation tags found.*
+
+#### `Error.cpp`
+
+File: `Pointers/Error.cpp`
+
+*No documentation tags found.*
+
+#### `PtrArith.cpp`
+
+File: `Pointers/PtrArith.cpp`
+
+*No documentation tags found.*
+
+#### `pointer.cpp`
+
+File: `Pointers/pointer.cpp`
+
+Brief: Program to demonstrate the use of pointers in C++.
 
 ---
 
-#### [`BitwiseOp.cpp`](BasicConcepts/BitwiseOp.cpp)
-
-**File:** [`BasicConcepts/BitwiseOp.cpp`](BasicConcepts/BitwiseOp.cpp)
-
-**Brief:** program to demonstrate bitwise operations.
-
-**Parameters:**
-- `n1 the first integer`
-- `n2 the second integer`
-
----
-
-#### [`CompoundInterest.cpp`](BasicConcepts/CompoundInterest.cpp)
-
-**File:** [`BasicConcepts/CompoundInterest.cpp`](BasicConcepts/CompoundInterest.cpp)
-
-**Brief:** Compound Interest Calculation
-
-**Parameters:**
-- `principal the initial amount of money invested or loaned`
-- `rate the annual interest rate (in percentage)`
-- `time the time the money is invested or borrowed for, in years`
-- `n the number of times that interest is compounded per year`
-
----
-
-#### [`CountDigit.cpp`](BasicConcepts/CountDigit.cpp)
-
-**File:** [`BasicConcepts/CountDigit.cpp`](BasicConcepts/CountDigit.cpp)
-
-**Brief:** program to count the number of digits in an integer.
-
----
-
-#### [`EvenOdd.cpp`](BasicConcepts/EvenOdd.cpp)
-
-**File:** [`BasicConcepts/EvenOdd.cpp`](BasicConcepts/EvenOdd.cpp)
-
-**Brief:** Compute whether a number is even or odd.
-
-**Parameters:**
-- `num the integer to check for even or odd`
-
----
-
-#### [`Factorial.cpp`](BasicConcepts/Factorial.cpp)
-
-**File:** [`BasicConcepts/Factorial.cpp`](BasicConcepts/Factorial.cpp)
-
-**Brief:** program to calculate the factorial of a number.
-
----
-
-#### [`Hello.cpp`](BasicConcepts/Hello.cpp)
-
-**File:** [`BasicConcepts/Hello.cpp`](BasicConcepts/Hello.cpp)
-
-**Brief:** A simple program that prints 'Hello, World!' to the console.
-
----
-
-#### [`IntBinAdd.cpp`](BasicConcepts/IntBinAdd.cpp)
-
-**File:** [`BasicConcepts/IntBinAdd.cpp`](BasicConcepts/IntBinAdd.cpp)
-
-**Brief:** A program that adds two binary numbers entered as integers by the user.
-
----
-
-#### [`LtRtShift.cpp`](BasicConcepts/LtRtShift.cpp)
-
-**File:** [`BasicConcepts/LtRtShift.cpp`](BasicConcepts/LtRtShift.cpp)
-
-**Brief:** program to demonstrate left and right shift operations.
-
-**Parameters:**
-- `num the first integer`
-- `shift the number of positions to shift`
-
----
-
-#### [`Max2.cpp`](BasicConcepts/Max2.cpp)
-
-**File:** [`BasicConcepts/Max2.cpp`](BasicConcepts/Max2.cpp)
-
-**Brief:** program to find the maximum of two numbers.
-
-**Parameters:**
-- `n1 the first number`
-- `n2 the second number`
-
----
-
-#### [`Max3.cpp`](BasicConcepts/Max3.cpp)
-
-**File:** [`BasicConcepts/Max3.cpp`](BasicConcepts/Max3.cpp)
-
-**Brief:** A program to find the maximum of three numbers using nested ternary operator.
-
----
-
-#### [`RevNo.cpp`](BasicConcepts/RevNo.cpp)
-
-**File:** [`BasicConcepts/RevNo.cpp`](BasicConcepts/RevNo.cpp)
-
-**Brief:** program to reverse a number.
-
-**Parameters:**
-- `num the integer to reverse`
-
----
-
-#### [`SumNNos.cpp`](BasicConcepts/SumNNos.cpp)
-
-**File:** [`BasicConcepts/SumNNos.cpp`](BasicConcepts/SumNNos.cpp)
-
-**Brief:** A program to calculate the sum of first N natural numbers.
-
----
-
-#### [`Swap2.cpp`](BasicConcepts/Swap2.cpp)
-
-**File:** [`BasicConcepts/Swap2.cpp`](BasicConcepts/Swap2.cpp)
-
-**Brief:** program to swap two numbers using a temporary variable.
-
-**Parameters:**
-- `n1 the first number`
-- `n2 the second number`
-
----
-
-## [Patterns](Patterns)
-
-*2 programs*
-
-#### [`RightTrainglePattern.cpp`](Patterns/RightTrainglePattern.cpp)
-
-**File:** [`Patterns/RightTrainglePattern.cpp`](Patterns/RightTrainglePattern.cpp)
-
-**Brief:** A program that prints a right triangle pattern.
-
----
-
-#### [`NumberPyramidPattern.cpp`](Patterns/NumberPyramidPattern.cpp)
-
-**File:** [`Patterns/NumberPyramidPattern.cpp`](Patterns/NumberPyramidPattern.cpp)
-
-**Brief:** Display Pyramid of numbers
-
-**Parameters:**
-- `n Number of rows in the pyramid`
-
-**Example:**
-```cpp
-
-```
-
----
-
-## [Arrays](Arrays)
-
-*2 programs*
-
-#### [`1DArray.cpp`](Arrays/1DArray.cpp)
-
-**File:** [`Arrays/1DArray.cpp`](Arrays/1DArray.cpp)
-
-**Brief:** A program that demonstrates the use of one-dimensional arrays in C++.
-
----
-
-#### [`Inventory1d.cpp`](Arrays/Inventory1d.cpp)
-
-**File:** [`Arrays/Inventory1d.cpp`](Arrays/Inventory1d.cpp)
-
-**Brief:** To store prices of items in an inventory using a 1D array.
-
-**Parameters:**
-- `inventory An array to hold the prices of items.`
-- `size The size of the inventory array.`
-
----
-
-
----
-
-*README auto-generated on 2026-03-19 18:38 from [`Utility/repo.json`](Utility/repo.json) and Doxygen comments.*
+*README auto-generated on 2026-03-25 14:30 by `generate_readme.py`*
