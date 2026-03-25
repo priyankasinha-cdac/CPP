@@ -25,6 +25,7 @@ int main()
 {
     int i;
     Demo d;
+    Demo *ptr= new Demo[5];
     d.publicdisplay();
     return 0;
 }
